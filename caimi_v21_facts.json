@@ -1,0 +1,484 @@
+{
+  "cie_audit": {
+    "registros": 12568,
+    "codigos_unicos": 12568,
+    "episodios": 1730,
+    "condiciones": 25,
+    "duplicados": 0,
+    "vacios": 0,
+    "formato_no_estandar": 1
+  },
+  "diagnosticos_total": 745006,
+  "diagnosticos_principales": 371987,
+  "usuarios_total": 68318,
+  "homologados": 739149,
+  "no_homologados": 5857,
+  "pct_homologacion": 0.9921383183491139,
+  "condiciones_analizadas": 25,
+  "episodios_analizados": 884,
+  "materno_perinatal_atenciones": 29162,
+  "materno_perinatal_usuarios": 2922,
+  "top_condiciones": [
+    {
+      "condicion": "DIAGNOSTICO NO VALIDO",
+      "Atenciones": 71450,
+      "Usuarios": 26187,
+      "Diagnosticos": 196,
+      "Materno": 0,
+      "Episodios analíticos 30d": 38474,
+      "Participación": 0.19348147506268853
+    },
+    {
+      "condicion": "GASTROINTESTINAL",
+      "Atenciones": 59223,
+      "Usuarios": 15571,
+      "Diagnosticos": 192,
+      "Materno": 0,
+      "Episodios analíticos 30d": 25624,
+      "Participación": 0.1603716360761036
+    },
+    {
+      "condicion": "INFECCIOSAS Y PARASITARIAS",
+      "Atenciones": 51206,
+      "Usuarios": 11035,
+      "Diagnosticos": 180,
+      "Materno": 0,
+      "Episodios analíticos 30d": 17347,
+      "Participación": 0.13866217511630552
+    },
+    {
+      "condicion": "OTORRINOLARINGOLOGIA",
+      "Atenciones": 26566,
+      "Usuarios": 11777,
+      "Diagnosticos": 126,
+      "Materno": 0,
+      "Episodios analíticos 30d": 17156,
+      "Participación": 0.07193882248447003
+    },
+    {
+      "condicion": "TRAUMATISMO",
+      "Atenciones": 25977,
+      "Usuarios": 9118,
+      "Diagnosticos": 684,
+      "Materno": 0,
+      "Episodios analíticos 30d": 10968,
+      "Participación": 0.07034385273202884
+    },
+    {
+      "condicion": "NEUMOLOGICO",
+      "Atenciones": 24485,
+      "Usuarios": 3077,
+      "Diagnosticos": 71,
+      "Materno": 0,
+      "Episodios analíticos 30d": 5919,
+      "Participación": 0.06630362374961413
+    },
+    {
+      "condicion": "URINARIO",
+      "Atenciones": 23777,
+      "Usuarios": 4226,
+      "Diagnosticos": 119,
+      "Materno": 0,
+      "Episodios analíticos 30d": 6575,
+      "Participación": 0.06438641053275782
+    },
+    {
+      "condicion": "CARDIOVASCULAR",
+      "Atenciones": 23066,
+      "Usuarios": 6440,
+      "Diagnosticos": 168,
+      "Materno": 0,
+      "Episodios analíticos 30d": 15864,
+      "Participación": 0.06246107353108431
+    },
+    {
+      "condicion": "MATERNO PERINATAL",
+      "Atenciones": 14809,
+      "Usuarios": 2654,
+      "Diagnosticos": 135,
+      "Materno": 14809,
+      "Episodios analíticos 30d": 4510,
+      "Participación": 0.04010170978591119
+    },
+    {
+      "condicion": "ORTOPEDIA",
+      "Atenciones": 14041,
+      "Usuarios": 7114,
+      "Diagnosticos": 205,
+      "Materno": 0,
+      "Episodios analíticos 30d": 11735,
+      "Participación": 0.03802202087271112
+    }
+  ],
+  "top_episodios": [
+    {
+      "episodio": "EXAMEN MEDICO GENERAL",
+      "condicion": "DIAGNOSTICO NO VALIDO",
+      "Atenciones": 48039,
+      "Usuarios": 19383,
+      "Diagnosticos": 1
+    },
+    {
+      "episodio": "INFECCIONES OTROS VIRUS",
+      "condicion": "INFECCIOSAS Y PARASITARIAS",
+      "Atenciones": 38365,
+      "Usuarios": 7055,
+      "Diagnosticos": 20
+    },
+    {
+      "episodio": "SIGNOS Y SINTOMAS GASTROINTESTINALES",
+      "condicion": "GASTROINTESTINAL",
+      "Atenciones": 21798,
+      "Usuarios": 4836,
+      "Diagnosticos": 10
+    },
+    {
+      "episodio": "DIARREA Y GASTROENTERITIS DE PRESUNTO ORIGEN INFECCIOSO",
+      "condicion": "GASTROINTESTINAL",
+      "Atenciones": 16249,
+      "Usuarios": 5305,
+      "Diagnosticos": 1
+    },
+    {
+      "episodio": "HIPERTENSION ARTERIAL - CRISIS HIPERTENSIVAS",
+      "condicion": "CARDIOVASCULAR",
+      "Atenciones": 13006,
+      "Usuarios": 4497,
+      "Diagnosticos": 13
+    },
+    {
+      "episodio": "INFECCION URINARIA",
+      "condicion": "URINARIO",
+      "Atenciones": 11987,
+      "Usuarios": 2170,
+      "Diagnosticos": 8
+    },
+    {
+      "episodio": "OSTEOMUSCULAR",
+      "condicion": "ORTOPEDIA",
+      "Atenciones": 11529,
+      "Usuarios": 6021,
+      "Diagnosticos": 95
+    },
+    {
+      "episodio": "ATENCION PRENATAL",
+      "condicion": "MATERNO PERINATAL",
+      "Atenciones": 8966,
+      "Usuarios": 1527,
+      "Diagnosticos": 15
+    },
+    {
+      "episodio": "NEUMONIA",
+      "condicion": "NEUMOLOGICO",
+      "Atenciones": 8408,
+      "Usuarios": 1066,
+      "Diagnosticos": 11
+    },
+    {
+      "episodio": "ENFERMEDAD PULMONAR OBSTRUCTIVA CRONICA",
+      "condicion": "NEUMOLOGICO",
+      "Atenciones": 8360,
+      "Usuarios": 894,
+      "Diagnosticos": 12
+    }
+  ],
+  "mat_indicadores": [
+    {
+      "Indicador": "Usuarios con condición materno-perinatal",
+      "Valor": 2922,
+      "Tipo": "Directo RIPS-CIE10",
+      "Fuente": "RIPS AC/AP/AU/AH + CIE10"
+    },
+    {
+      "Indicador": "Atenciones/diagnósticos materno-perinatales",
+      "Valor": 29162,
+      "Tipo": "Directo RIPS-CIE10",
+      "Fuente": "Diagnósticos homologados"
+    },
+    {
+      "Indicador": "Atenciones prenatales homologadas",
+      "Valor": 25863,
+      "Tipo": "Proxy",
+      "Fuente": "Episodio CIE10 contiene prenatal/embarazo/gestación/control"
+    },
+    {
+      "Indicador": "Frecuencia materno-perinatal por usuaria",
+      "Valor": 9.98,
+      "Tipo": "Proxy",
+      "Fuente": "Atenciones / usuarios únicos"
+    },
+    {
+      "Indicador": "Urgencias obstétricas/perinatales",
+      "Valor": 476,
+      "Tipo": "Directo RIPS-CIE10",
+      "Fuente": "AU homologado materno-perinatal"
+    },
+    {
+      "Indicador": "Hospitalizaciones materno-perinatales",
+      "Valor": 812,
+      "Tipo": "Directo RIPS-CIE10",
+      "Fuente": "AH homologado materno-perinatal"
+    },
+    {
+      "Indicador": "Complicaciones registradas",
+      "Valor": 1811,
+      "Tipo": "Proxy médico-auditor",
+      "Fuente": "Rol complicación o episodio trazador"
+    },
+    {
+      "Indicador": "Condiciones perinatales/neonatales",
+      "Valor": 235,
+      "Tipo": "Directo RIPS-CIE10",
+      "Fuente": "Códigos P00-P96 homologados"
+    },
+    {
+      "Indicador": "Reconsulta proxy ≤7 días",
+      "Valor": 571,
+      "Tipo": "Proxy",
+      "Fuente": "Usuarios con nuevo contacto ≤7 días"
+    },
+    {
+      "Indicador": "Reconsulta proxy ≤30 días",
+      "Valor": 1047,
+      "Tipo": "Proxy",
+      "Fuente": "Usuarios con nuevo contacto ≤30 días"
+    },
+    {
+      "Indicador": "Parto, puerperio o aborto homologado",
+      "Valor": 1294,
+      "Tipo": "Directo/Proxy",
+      "Fuente": "Episodio CIE10"
+    }
+  ],
+  "summary_year": [
+    {
+      "Vigencia": "2023",
+      "Diagnósticos": 16878,
+      "Diagnósticos principales/egreso": 8219,
+      "Usuarios únicos": 3403,
+      "Homologados": 16862,
+      "No homologados": 16,
+      "% homologación": 0.9990520203815618,
+      "Condiciones identificadas": 23,
+      "Episodios identificados": 354,
+      "Materno-perinatal": 148
+    },
+    {
+      "Vigencia": "2024",
+      "Diagnósticos": 328295,
+      "Diagnósticos principales/egreso": 162765,
+      "Usuarios únicos": 39316,
+      "Homologados": 325463,
+      "No homologados": 2832,
+      "% homologación": 0.9913736121476111,
+      "Condiciones identificadas": 25,
+      "Episodios identificados": 732,
+      "Materno-perinatal": 3657
+    },
+    {
+      "Vigencia": "2025",
+      "Diagnósticos": 254831,
+      "Diagnósticos principales/egreso": 127992,
+      "Usuarios únicos": 33250,
+      "Homologados": 252177,
+      "No homologados": 2654,
+      "% homologación": 0.989585254541245,
+      "Condiciones identificadas": 24,
+      "Episodios identificados": 698,
+      "Materno-perinatal": 10105
+    },
+    {
+      "Vigencia": "2026",
+      "Diagnósticos": 145002,
+      "Diagnósticos principales/egreso": 73011,
+      "Usuarios únicos": 18105,
+      "Homologados": 144647,
+      "No homologados": 355,
+      "% homologación": 0.9975517579067875,
+      "Condiciones identificadas": 24,
+      "Episodios identificados": 515,
+      "Materno-perinatal": 15252
+    }
+  ],
+  "biomed_summary": {
+    "updated_at": "2026-10-27",
+    "financial_cutoff": "2026-06-30",
+    "certificate_date": "2026-10-23",
+    "certificate_signer": "Kelly Catherine Reyes Moreno",
+    "certificate_signer_role": "Ingeniera Biomédica",
+    "unit": "registros de inventario, no activos únicos acreditados",
+    "inventory_source_date": "No indicada en el PDF base; no atribuir fecha de inspección uniforme",
+    "report_dates": [
+      "2026-07-09",
+      "2026-07-14",
+      "2026-08-03",
+      "2026-10-08"
+    ],
+    "scope": "Consolidación documental, no inspección física nueva ni medición simultánea de disponibilidad; condición según fuentes de fechas distintas.",
+    "classification_rule": "Actualiza condición de 12 registros enlazados por placa o serie; mantiene 2 asociaciones descriptivas en categoría propia hasta corroborar identidad. El registro 8631 conserva falta de reporte individual. No resta el traslado ni la serie repetida del total de filas fuente.",
+    "source_inventory_sha256": "5de9ece6322b0e093bee85d3fa368a021290b73c8284f66e660e82be1043083e",
+    "source_certificate_sha256": "18b4762128a9c9e7f60444e114a4fd9c4e1343628e03d12fd6d8e1e69db66fa2",
+    "total_records": 194,
+    "initial_unlocated": 15,
+    "individual_reports": 14,
+    "linked_by_inventory": 10,
+    "linked_by_serial": 2,
+    "linked_by_key": 12,
+    "descriptive_links": 2,
+    "without_individual_report": 1,
+    "missing_report_inventory": "8631",
+    "base_counts": {
+      "operativo_explicito": 99,
+      "condicion_por_verificar": 12,
+      "operativo_observaciones": 65,
+      "fuera_servicio": 2,
+      "no_ubicado_inicial": 15,
+      "traslado_sede": 1
+    },
+    "consolidated_counts": {
+      "operativo_explicito": 106,
+      "condicion_por_verificar": 12,
+      "operativo_observaciones": 66,
+      "fuera_servicio": 5,
+      "traslado_sede": 1,
+      "intervencion_proceso": 1,
+      "sin_reporte_individual": 1,
+      "asociacion_por_corroborar": 2
+    },
+    "labels": {
+      "operativo_explicito": "Operativo explícito sin incidencia pendiente consignada",
+      "operativo_observaciones": "Operativo con observaciones",
+      "fuera_servicio": "Fuera de servicio explícito",
+      "condicion_por_verificar": "Condición técnica por verificar",
+      "no_ubicado_inicial": "No ubicado en la visita inicial",
+      "traslado_sede": "Traslado a otra sede registrado",
+      "intervencion_proceso": "Intervención en proceso",
+      "asociacion_por_corroborar": "Asociación descriptiva por corroborar",
+      "sin_reporte_individual": "Sin reporte individual en certificación"
+    },
+    "management_flag_counts": {
+      "Intervención o verificación técnica": 84,
+      "Renovación tecnológica recomendada": 6,
+      "Corrosión / desgaste / deterioro": 23,
+      "Baterías / autonomía": 20,
+      "Traslado entre sedes": 1,
+      "Individualización o identidad por conciliar": 5,
+      "Baja recomendada, no ejecutada": 2
+    },
+    "management_flags_may_overlap": true,
+    "duplicates": {
+      "inventory": {},
+      "serial": {
+        "503352": [
+          85,
+          88
+        ]
+      }
+    },
+    "populated_inventory_values": 182,
+    "distinct_inventory_values": 182,
+    "populated_serial_values": 151,
+    "distinct_serial_values": 150,
+    "unique_assets_confirmed": null,
+    "baseline_discrepancies": [
+      {
+        "before": 217,
+        "after": 194,
+        "where": "Aplicativo inventory/kpi; Excel 30_Consistencia_entregables!B7",
+        "cause_verified": "Resumen fijo heredado sin vínculo al detalle fuente; el PDF institucional contiene exactamente 194 filas numeradas. No hay respaldo documental identificado para 23 filas adicionales. No se presume una causa de captura o filtro."
+      },
+      {
+        "before": 13,
+        "after": 15,
+        "where": "Excel 18_Equipos_biomedicos!B9",
+        "cause_verified": "Resumen fijo heredado sin fórmula ni detalle individual; el cotejo de las tres expresiones de no ubicación arroja 15 registros. No se atribuye una regla de clasificación anterior sin soporte."
+      },
+      {
+        "before": 41,
+        "after": null,
+        "where": "Rubro residual otros/por homologar del resumen previo",
+        "cause_verified": "No dispone de asociación individual a filas; se sustituye el residual por clasificación trazable de las 194 observaciones, sin atribuir a la certificación una resolución automática de aquel grupo."
+      }
+    ]
+  },
+  "scenario_method": {
+    "criteria": [
+      "Sanitario",
+      "Acceso",
+      "Calidad",
+      "Financiero",
+      "Operativo",
+      "Jurídico",
+      "Riesgo de implementación",
+      "Territorial"
+    ],
+    "scale_min": 1,
+    "scale_max": 5,
+    "weights": [
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125
+    ],
+    "weight_basis": "Supuesto técnico explícito de ponderación uniforme, ante ausencia de pesos documentados para los ocho criterios. No constituye aprobación institucional.",
+    "higher_is_better": true,
+    "risk_interpretation": "Mayor calificación representa mejor control / menor riesgo de implementación.",
+    "scenarios": [
+      {
+        "name": "Continuidad optimizada",
+        "scores": [
+          4.2,
+          4.5,
+          3.7,
+          2.7,
+          3.2,
+          4,
+          4.5,
+          4.3
+        ],
+        "legacy_score_without_documented_weights": 3.82,
+        "calculated_score_equal_weights": 3.8875
+      },
+      {
+        "name": "Tercerización condicionada",
+        "scores": [
+          4,
+          4.2,
+          4.1,
+          3.8,
+          4.1,
+          3.5,
+          3.2,
+          4
+        ],
+        "legacy_score_without_documented_weights": 3.91,
+        "calculated_score_equal_weights": 3.8625
+      },
+      {
+        "name": "Cierre / reconversión",
+        "scores": [
+          2.2,
+          2,
+          2.8,
+          3.4,
+          2.8,
+          2.6,
+          2.3,
+          1.9
+        ],
+        "legacy_score_without_documented_weights": 2.54,
+        "calculated_score_equal_weights": 2.5
+      }
+    ],
+    "score_leader": "Continuidad optimizada",
+    "qualitative_prior_recommendation": "Tercerización condicionada",
+    "ranking_difference": 0.025,
+    "shared_qualification": "La comparación uniforme de ocho criterios otorga una ligera ventaja a la continuidad optimizada (3,8875/5 frente a 3,8625/5). La tercerización se conserva como recomendación estratégica condicionada del estudio; esta comparación no demuestra su superioridad y exige verificar salvaguardas, costos y capacidad de implementación."
+  },
+  "updated_at": "2026-10-27",
+  "rips_interpretation": "DIAGNOSTICO NO VALIDO se conserva como categoría original pendiente de validación médico-auditora; no es diagnóstico clínico confirmado."
+}

@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-10-27",
+  "financial_cutoff": "2026-06-30",
+  "certificate_date": "2026-10-23",
+  "certificate_signer": "Kelly Catherine Reyes Moreno",
+  "certificate_signer_role": "Ingeniera Biomédica",
+  "unit": "registros de inventario, no activos únicos acreditados",
+  "inventory_source_date": "No indicada en el PDF base; no atribuir fecha de inspección uniforme",
+  "report_dates": [
+    "2026-07-09",
+    "2026-07-14",
+    "2026-08-03",
+    "2026-10-08"
+  ],
+  "scope": "Consolidación documental, no inspección física nueva ni medición simultánea de disponibilidad; condición según fuentes de fechas distintas.",
+  "classification_rule": "Actualiza condición de 12 registros enlazados por placa o serie; mantiene 2 asociaciones descriptivas en categoría propia hasta corroborar identidad. El registro 8631 conserva falta de reporte individual. No resta el traslado ni la serie repetida del total de filas fuente.",
+  "source_inventory_sha256": "5de9ece6322b0e093bee85d3fa368a021290b73c8284f66e660e82be1043083e",
+  "source_certificate_sha256": "18b4762128a9c9e7f60444e114a4fd9c4e1343628e03d12fd6d8e1e69db66fa2",
+  "total_records": 194,
+  "initial_unlocated": 15,
+  "individual_reports": 14,
+  "linked_by_inventory": 10,
+  "linked_by_serial": 2,
+  "linked_by_key": 12,
+  "descriptive_links": 2,
+  "without_individual_report": 1,
+  "missing_report_inventory": "8631",
+  "base_counts": {
+    "operativo_explicito": 99,
+    "condicion_por_verificar": 12,
+    "operativo_observaciones": 65,
+    "fuera_servicio": 2,
+    "no_ubicado_inicial": 15,
+    "traslado_sede": 1
+  },
+  "consolidated_counts": {
+    "operativo_explicito": 106,
+    "condicion_por_verificar": 12,
+    "operativo_observaciones": 66,
+    "fuera_servicio": 5,
+    "traslado_sede": 1,
+    "intervencion_proceso": 1,
+    "sin_reporte_individual": 1,
+    "asociacion_por_corroborar": 2
+  },
+  "labels": {
+    "operativo_explicito": "Operativo explícito sin incidencia pendiente consignada",
+    "operativo_observaciones": "Operativo con observaciones",
+    "fuera_servicio": "Fuera de servicio explícito",
+    "condicion_por_verificar": "Condición técnica por verificar",
+    "no_ubicado_inicial": "No ubicado en la visita inicial",
+    "traslado_sede": "Traslado a otra sede registrado",
+    "intervencion_proceso": "Intervención en proceso",
+    "asociacion_por_corroborar": "Asociación descriptiva por corroborar",
+    "sin_reporte_individual": "Sin reporte individual en certificación"
+  },
+  "management_flag_counts": {
+    "Intervención o verificación técnica": 84,
+    "Renovación tecnológica recomendada": 6,
+    "Corrosión / desgaste / deterioro": 23,
+    "Baterías / autonomía": 20,
+    "Traslado entre sedes": 1,
+    "Individualización o identidad por conciliar": 5,
+    "Baja recomendada, no ejecutada": 2
+  },
+  "management_flags_may_overlap": true,
+  "duplicates": {
+    "inventory": {},
+    "serial": {
+      "503352": [
+        85,
+        88
+      ]
+    }
+  },
+  "populated_inventory_values": 182,
+  "distinct_inventory_values": 182,
+  "populated_serial_values": 151,
+  "distinct_serial_values": 150,
+  "unique_assets_confirmed": null,
+  "baseline_discrepancies": [
+    {
+      "before": 217,
+      "after": 194,
+      "where": "Aplicativo inventory/kpi; Excel 30_Consistencia_entregables!B7",
+      "cause_verified": "Resumen fijo heredado sin vínculo al detalle fuente; el PDF institucional contiene exactamente 194 filas numeradas. No hay respaldo documental identificado para 23 filas adicionales. No se presume una causa de captura o filtro."
+    },
+    {
+      "before": 13,
+      "after": 15,
+      "where": "Excel 18_Equipos_biomedicos!B9",
+      "cause_verified": "Resumen fijo heredado sin fórmula ni detalle individual; el cotejo de las tres expresiones de no ubicación arroja 15 registros. No se atribuye una regla de clasificación anterior sin soporte."
+    },
+    {
+      "before": 41,
+      "after": null,
+      "where": "Rubro residual otros/por homologar del resumen previo",
+      "cause_verified": "No dispone de asociación individual a filas; se sustituye el residual por clasificación trazable de las 194 observaciones, sin atribuir a la certificación una resolución automática de aquel grupo."
+    }
+  ]
+}
